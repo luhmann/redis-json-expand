@@ -10,7 +10,7 @@ function parse (tree)
             tree[k] = parse(subtree)
         end
 
-        if (type(v) == 'table') then
+        if type(v) == 'table' then
             tree[k] = parse(v)
         end
     end
