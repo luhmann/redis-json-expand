@@ -17,7 +17,9 @@ keys = {
         "id": "homepage",
         "stage": {
             "reference": "partial:1"
-        }
+        },
+        # non-existing entry
+        "sushi1": "partial:3"
     }
 }
 
